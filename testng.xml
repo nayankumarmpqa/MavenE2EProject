@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="ViaAutoPack.MyTestListeners"></listener>
+		<listener class-name="resources.ExtentReporterNG"></listener>
+		
+	</listeners>
+
+<!-- 	<test thread-count="5" name="1 AdminPage"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="ViaAutoPack.LoginPage" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> Test -->
+
+<!-- 	<test thread-count="5" name="2 LoginPage"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="ViaAutoPack.HeirarchyPageTest" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> Test -->
+	
+	<test thread-count="5" name="3 Automates scheduler Test">
+		<classes>
+			<class name="ViaAutoPack.ActivitySchedule" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

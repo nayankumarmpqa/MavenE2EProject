@@ -1,0 +1,7 @@
+00:02:13.017 [main] INFO  ViaAutoPack.LoginPage - Username/PW entered
+00:02:13.113 [main] INFO  ViaAutoPack.LoginPage - Submit clicked
+00:02:25.011 [main] INFO  ViaAutoPack.HeirarchyPageTest - Browser initialized
+00:02:33.655 [main] INFO  ViaAutoPack.HeirarchyPageTest - Navigated to URL
+00:02:35.929 [main] INFO  ViaAutoPack.HeirarchyPageTest - Maximized the brwoser
+00:02:35.931 [main] INFO  ViaAutoPack.HeirarchyPageTest - validateLandingPage Test Started
+00:02:36.574 [main] INFO  ViaAutoPack.HeirarchyPageTest - submit clicked
