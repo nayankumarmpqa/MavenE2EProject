@@ -54,7 +54,7 @@ public class BaseClass {
 				//if (browserName.equals("chrome")) {
 			
 				if (browserName.contains("chrome")) {	
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver83.exe");
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver88.exe");
 					
 					ChromeOptions options= new ChromeOptions();
 						if (browserName.contains("headless")) {

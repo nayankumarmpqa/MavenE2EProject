@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="3 Automates scheduler Test(failed)" verbose="0">
     <classes>
-      <class name="ViaAutoPack.ActivityScheduleTabTest">
+      <class name="ViaAutoPack.ActivitySchedule">
         <methods>
-          <include name="validateLandingPage" invocation-numbers="0"/>
           <include name="teardown"/>
           <include name="initialize"/>
+          <include name="activityScheduleTabTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- ViaAutoPack.ActivityScheduleTabTest -->
+      </class> <!-- ViaAutoPack.ActivitySchedule -->
     </classes>
   </test> <!-- 3 Automates scheduler Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

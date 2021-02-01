@@ -25,14 +25,14 @@ public class LoginPageObjects {
 	}
 	
 	
-	private @FindBy(xpath = "//*[@id=\"email\"]")
+	private @FindBy(xpath = "//*[@id=\"input-login-username\"]")
 	WebElement username;
 	
 	public WebElement username() {
 		return username;
 	}
 //---------------------------------------------	
-	private @FindBy(id = "password")
+	private @FindBy(id = "input-login-password")
 	WebElement password;
 	
 
@@ -43,7 +43,7 @@ public class LoginPageObjects {
 	
 //---------------------------------------------
 	
-	private @FindBy(xpath = "//*[@id=\"login\"]/div/div/span")
+	private @FindBy(xpath = "//button[contains(text(),'Sign In')]")
 	WebElement submit;
 		
 	public WebElement submitButton() {
@@ -60,7 +60,7 @@ public class LoginPageObjects {
 	
 //--------------------------------------	
 
-		private @FindBy(css = "#wrap > header > div > div.navbar-items > ul.nav.navbar-nav.navbar-right.personal > li.app-navigator.ng-scope > a")
+		private @FindBy(xpath = "//*[@id=\"wrap\"]/header/div/div[2]/ul[2]/li[2]/a")
 		WebElement adminAppswitcher;
 		
 		public WebElement adminAppswitcher() {

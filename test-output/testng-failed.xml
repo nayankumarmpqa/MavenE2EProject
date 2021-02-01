@@ -3,13 +3,27 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ViaAutoPack.ActivityScheduleTabTest">
+      <class name="ViaAutoPack.LoginPage">
         <methods>
-          <include name="validateLandingPage"/>
+          <include name="validateLoginPage"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- ViaAutoPack.LoginPage -->
+      <class name="ViaAutoPack.ActivitySchedule">
+        <methods>
           <include name="teardown"/>
           <include name="initialize"/>
+          <include name="activityScheduleTabTest"/>
         </methods>
-      </class> <!-- ViaAutoPack.ActivityScheduleTabTest -->
+      </class> <!-- ViaAutoPack.ActivitySchedule -->
+      <class name="ViaAutoPack.HeirarchyPageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="validateLandingPage"/>
+        </methods>
+      </class> <!-- ViaAutoPack.HeirarchyPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
